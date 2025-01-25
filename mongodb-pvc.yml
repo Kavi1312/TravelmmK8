@@ -1,1 +1,14 @@
+apiVersion: v1
+kind: PersistantVolumeClaim
+metadata: 
+  name: mongodb-pvc
+  namespace: tmdb
+spec:
+  accessModes:
+    -ReadwriteOnce
+  resources:
+    request:
+      storage:
+    1Gi
+  VolumeName: mongodb-pv
 
