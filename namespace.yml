@@ -1,13 +1,14 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-name: tmfe
-----
+  name: tmfe
+---
 apiVersion: v1
 kind: Namespace
 metadata:
-name: tmbe
----apiVersion: v1
+  name: tmbe
+---
+apiVersion: v1
 kind: Namespace
 metadata:
-name: tmdb
+  name: tmdb
